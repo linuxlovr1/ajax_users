@@ -1,0 +1,18 @@
+<h1>Add a Person</h1> 
+<form id='new_person'>
+  <input placeholder="First name" name='user[first_name]' required=true />
+  <input placeholder="Last name" name='user[last_name]' required=true />
+  <input placeholder="Phone number" name='user[phone_number' type="tel" />
+  <button type='submit'>Submit</button>
+</form>  
+<hr />
+
+<table class='table table-striped table-responsive'>
+    <thead>
+    <th>First Name</th> 
+    <th>Last Name</th> 
+    <th>Phone Number</th> 
+  </thead>
+  <tbody id="users">
+  </tbody>
+</table>   
